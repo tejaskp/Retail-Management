@@ -1,10 +1,10 @@
 # Assignment- Retail Management System
 
-Reatail Management System using Spring Boot RESTful Web Services
+Retail Management System using Spring Boot RESTful Web Services
 
 Overview
 ========
-It's a Reatail Management System built using built using Spring Boot. It contains RESTful web services to add new shop and locate nearest shop. It uses google's Geocoding API.
+It's a Retail Management System built using built using Spring Boot. It contains RESTful web services to add new shop and to locate nearest shop. It uses google's Geocoding API.
 
 Dependencies
 ============
