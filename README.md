@@ -1,4 +1,4 @@
-# Assignment- Retail Management
+# Assignment- Retail Management System
 
 Reatail Management System using Spring Boot RESTful Web Services
 
@@ -8,8 +8,9 @@ It's a Reatail Management System built using built using Spring Boot. It contain
 
 Dependencies
 ============
-This project requires JDK 8, Maven/Gradle. Its also requires Google API key to access Geocoding API.  Update Google's API key value for **API_KEY** static variable in below class.  
-**Retail-Management/src/main/java/com/example/ws/util/ApplicationUtils.java**  
+This project requires JDK 8, Maven/Gradle. It also requires Google API key to access Geocoding API.
+Update Google's API key value for **API_KEY** static variable in below class.  
+**src/main/java/com/example/ws/util/ApplicationUtils.java**  
 
 Building / Running
 ==================
@@ -26,7 +27,7 @@ Go to /build/libs directory and run jar using **java -jar retail-management-<ver
 
 API
 ===
-The API allows for GET, POST.  
+The API allows for GET, POST requests.  
 
 POST
 ----
@@ -35,7 +36,7 @@ This api can be accessed by only manager. i.e. it expects header parameter with 
 
 GET
 ---
-**/RetailManagementSystem/getNearestShop/{customerLongitude}/{customerLatitude}**: Return the nearest shop based on the customer's longitude and latitude.  
+**/RetailManagementSystem/getNearestShop/{customerLongitude}/{customerLatitude}**: Returns the nearest shop based on the customer's longitude and latitude.  
 This api can be accessed by manager and customer. i.e. it expects header parameter with name 'user' and value 'manager' or 'customer'.
 
 Errors
